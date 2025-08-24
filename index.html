@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeroxis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: rgb(33, 36, 40);
+            color: white;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            color: #d14823;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn {
+            background-color: #d14823;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .paralax-section {
+            position: relative;
+            height: 100vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero {
+            background-image: linear-gradient(rgba(33, 36, 40, 0.7), rgba(33, 36, 40, 0.7)),
+                url("https://images.pexels.com/photos/1314410/pexels-photo-1314410.jpeg");
+        }
+
+        #paralax-2 {
+            background-image: linear-gradient(rgba(33, 36, 40, 0.7), rgba(33, 36, 40, 0.7)),
+                url("https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg");
+        }
+
+        .content-section {
+            padding: 60px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .content-section .content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .content-section .content p {
+            margin: 10px 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .features .feature {
+            padding: 20px;
+            background-color: white;
+            color: #d14823;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(33, 36, 40, 0.2);
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="paralax-section hero">
+        <div class="hero-content">
+            <h1>Powering Innovation, Shaping the Future.</h1>
+            <p>
+                At Zeroxis, we merge creativity, technology, and
+                strategy to design solutions that transform businesses
+                and inspire people.
+            </p>
+            <a href="#Work With Us" class="btn">Work With Us</a>
+        </div>
+    </section>
+    <section class="content-section">
+        <div class="content">
+            <h2>Our Services</h2>
+            <p>Zeroxis provides web design, marketing, branding, and consulting—helping businesses innovate, grow, and
+                succeed.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <h3>Web Design & Development</h3>
+                    <p>
+                        Responsive, modern, and functional websites that bring your ideas to life.
+                    </p>
+                </div>
+                <div class="feature">
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        From SEO to social media, we help you reach the right audience
+                    </p>
+                </div>
+                <div class="feature">
+                    <h3>Consulting & Strategy</h3>
+                    <p>
+                        Tailored solutions to help businesses scale smarter and faster.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="paralax-section" id="paralax-2">
+        <div class="content">
+            <h2>Our Mission</h2>
+            <p>At Zeroxis, our mission is to empower businesses with innovative digital solutions that inspire growth,
+                spark creativity, and shape a smarter, technology-driven future
+            </p>
+        </div>
+    </section>
+    <section class="content-section">
+        <div class="content">
+            <h2>Our Vision</h2>
+            <p>
+                To be a global leader in innovation, shaping the future through technology, creativity, and
+                transformative solutions that redefine how businesses and people connect in the digital age.
+            </p>
+        </div>
+        <a href="" class="cta-btn">Innovate with Us</a>
+    </section>
+</body>
+
+</html>
